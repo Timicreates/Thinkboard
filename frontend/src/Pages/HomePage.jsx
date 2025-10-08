@@ -57,7 +57,7 @@ const HomePage = () => {
         {isLoading && (
           <div className="text-center text-primary">Loading notes....</div>
         )}
-        <div className=" py-7 px-6 w-3/4  mb-13 border-t-5 mx-auto  border-secondary  rounded-xl lg:w-2/5 align-center justify-center">
+        {/* <div className=" py-7 px-6 w-3/4  mb-13 border-t-5 mx-auto  border-secondary  rounded-xl lg:w-2/5 align-center justify-center">
           <div className="mb-6 relative mx-auto w-full max-w-md  ">
             <Search
               size={20}
@@ -73,7 +73,7 @@ const HomePage = () => {
               className="w-full pl-10 pr-4 bg-gray-950 py-2 rounded-lg border border-gray-600  text-white focus:outline-none focus:ring-2 focus:ring-primary"
             />
           </div>
-        </div>
+        </div> */}
 
         {filteredItems.length > 0 && !isRateLimited && (
           <div className="grid grid-cols-1 size-3/4  lg:size-full mx-auto  md:grid-cols-2 lg:grid-cols-3 gap-6">
